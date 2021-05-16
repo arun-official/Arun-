@@ -1,0 +1,65 @@
+*
+{
+    margin: 0;
+    text-overflow: hidden;
+    scroll-behavior: smooth;
+}
+body
+{
+    margin: 0;
+}
+/*-------------Navbar----------------------*/
+nav
+{
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+nav ul li a:hover
+{
+    text-decoration: underline;
+}
+/*---------------Section-1-----------------*/
+.section-1
+{
+   background-color: #fff;
+}
+
+.section-1 .left-section img
+{
+    width: 300px;
+}
+.section-1 h2{
+    color: rgba(0, 0, 0, 0.6);
+}
+.section-1 h4{
+    color: rgba(0, 0, 0, 0.5);
+}
+.section-1 h5{
+    color: rgba(0, 0, 0, 0.4);
+}
+
+/*-------------Skills section-----------*/
+.skills-section{
+    height: 500px;
+}
+.skills 
+{   
+    text-align: left; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+}
+  .html {width: 90%; background-color: #fff;} 
+.css {width: 85%; background-color: #fff;} 
+.js {width: 75%; background-color: #fff;}
+.php {width: 80%; background-color: #fff;} 
+
+/*---------------Footer------------------*/
+footer
+{
+    background-color: black;
+}
+footer a:hover{
+     font-size: large;
+}
